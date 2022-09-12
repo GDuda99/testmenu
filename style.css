@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@media only screen and (max-width:1100px) and (orientation:portrait){
+html{
+    box-sizing: border-box;
+    background-color: #8F704B;
+}
+    .headerbg{
+        
+position: absolute;
+width: 363px;
+height: 83px;
+left: 0px;
+top: 0px;
+
+background: #A87F4E;
+border-radius: 0px 0px 30px 30px;
+    }
+    .headerphoto{
+        position: absolute;
+width: 363px;
+height: 83px;
+left: 0px;
+top: 0px;
+
+background: url(Images/MILA+Venue+13+May+2021++29\ 1.png);
+background-repeat: repeat-x;
+border-radius: 0px 0px 30px 30px;
+    }
+    .headertxt{
+        position: absolute;
+width: 350px;
+height: 41px;
+left: 12px;
+top: 10px;
+
+font-family: 'Tangerine';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+    }
+.searchsection{
+position: absolute;
+width: 355px;
+height: 62px;
+left: 12px;
+top: 91px;
+}
+.menutxt{
+position: absolute;
+width: 45px;
+height: 26px;
+margin-left: 5px;
+top: 0px;
+font-family: 'Tangerine';
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 30px;
+color: #000000;
+}
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 65%;
+    margin-top: 35px;
+    background: #E6D4D0;
+    border-radius: 50px;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    margin-top: 35px;
+    margin-left: 15px;
+    padding: 10px;
+    background: #E5D4CF;
+    color: red;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/*body*/
+.selectedmenu{
+    position: absolute;
+    width: 400px;
+    height: auto;
+}
+.selectedmenu .hotmeals{
+position: absolute;
+width: 335px;
+height: 76px;
+left: 6px;
+top: 178px;
+background: url(Images/Foods1\ 1.png);
+border-radius: 20px;
+}
+.selectedmenu .hotmeals .hotmealstxt{
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    left: 87px;
+    top: 22px;
+    font-family: 'Birthstone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 34px;
+    color: #5199C1;
+}
+
+.selectedmenu .breakfast{
+    position: absolute;
+    width: 335px;
+    height: 76px;
+    left: 6px;
+    top: 278px;
+    background: url(Images/Traditional-breakfast-around-the-world-CP-Costa-Rica\ 1.png);
+    border-radius: 20px;
+    }
+    .selectedmenu .breakfast .breakfasttxt{
+        position: absolute;
+        width: 200px;
+        height: 34px;
+        left: 92px;
+        top: 22px;
+        font-family: 'Birthstone';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 34px;
+        color: #5199C1;
+    }
+    .selectedmenu .bakedfood{
+        position: absolute;
+        width: 335px;
+        height: 76px;
+        left: 6px;
+        top: 378px;
+        background: url(Images/1-georgian-khachapuri-recipe-3135\ 1.png);
+        border-radius: 20px;
+        }
+        .selectedmenu .bakedfood .bakedfoodtxt{
+            position: absolute;
+            width: 200px;
+            height: 34px;
+            left: 87px;
+            top: 22px;
+            font-family: 'Birthstone';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 34px;
+            color: #5199C1;
+        }
+        .selectedmenu .salads{
+            position: absolute;
+            width: 335px;
+            height: 76px;
+            left: 6px;
+            top: 478px;
+            background: url(Images/download\ 1.png);
+            border-radius: 20px;
+            }
+            .selectedmenu .salads .saladstxt{
+                position: absolute;
+                width: 200px;
+                height: 34px;
+                left: 115px;
+                top: 22px;
+                font-family: 'Birthstone';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 38px;
+                line-height: 34px;
+                color: #5199C1;
+            }
+            .selectedmenu .deserts{
+                position: absolute;
+                width: 335px;
+                height: 76px;
+                left: 6px;
+                top: 578px;
+                background: url(Images/raw-dessert\ 1.png);
+                border-radius: 20px;
+                }
+                .selectedmenu .deserts .desertstxt{
+                    position: absolute;
+                    width: 200px;
+                    height: 34px;
+                    left: 109px;
+                    top: 22px;
+                    font-family: 'Birthstone';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 38px;
+                    line-height: 34px;
+                    color: #5199C1;
+                }
+                .selectedmenu .drinks{
+                    position: absolute;
+                    width: 335px;
+                    height: 76px;
+                    left: 6px;
+                    top: 678px;
+                    background: url(Images/73461940-44_well-drinks_01-hero\ 1.png);
+                    border-radius: 20px;
+                    }
+                    .selectedmenu .drinks .drinkstxt{
+                        position: absolute;
+                        width: 200px;
+                        height: 34px;
+                        left: 115px;
+                        top: 22px;
+                        font-family: 'Birthstone';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 38px;
+                        line-height: 34px;
+                        color: #5199C1;
+                    }
+    
+/*body*/
+  /*Footer*/
+  .footer{
+position: absolute;
+width: 365px;
+height: 35px;
+left: 0px;
+top: 810px;
+background: #A87F4E;
+border-radius: 20px 20px 0px 0px;
+}
+.footertxt{
+    position: absolute;
+width: 200px;
+height: 22px;
+left: 95px;
+top: 6px;
+
+font-family: 'Birthstone';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+  /*footer*/
+}
