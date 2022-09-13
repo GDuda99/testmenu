@@ -17,15 +17,15 @@ background: #A87F4E;
 border-radius: 0px 0px 30px 30px;
     }
     .headerphoto{
-        position: absolute;
-width: 363px;
-height: 83px;
-left: 0px;
-top: 0px;
-
-background: url(MILA+Venue+13+May+2021++29\ 1.png);
-background-repeat: repeat-x;
-border-radius: 0px 0px 30px 30px;
+        position: fixed;
+        width: 94.5%;
+        background-size: 93.5% 100% !important;
+        height: 83px;
+        left: 0px;
+        top: 0px;
+        background: url(MILA+Venue+13+May+2021++29\ 1.png);
+        background-repeat: no-repeat;
+        border-radius: 0px 0px 30px 30px;
     }
     .headertxt{
         position: absolute;
@@ -42,7 +42,7 @@ line-height: 30px;
     }
 .searchsection{
 position: absolute;
-width: 355px;
+width: 100%;
 height: 62px;
 left: 12px;
 top: 91px;
@@ -106,11 +106,15 @@ form.example input[type=text] {
 }
 .selectedmenu .hotmeals{
 position: absolute;
-width: 335px;
+justify-content: center;
+width: 96.5%;
+background-size: 93.5% 100% !important;
 height: 76px;
 left: 6px;
 top: 178px;
+cursor: pointer;
 background: url(Foods1\ 1.png);
+background-repeat: no-repeat;
 border-radius: 20px;
 }
 .selectedmenu .hotmeals .hotmealstxt{
@@ -129,11 +133,14 @@ border-radius: 20px;
 
 .selectedmenu .breakfast{
     position: absolute;
-    width: 335px;
+    justify-content: center;
+    width: 96.5%;
+    background-size: 93.5% 100% !important;
     height: 76px;
     left: 6px;
     top: 278px;
     background: url(Traditional-breakfast-around-the-world-CP-Costa-Rica\ 1.png);
+    background-repeat: no-repeat;
     border-radius: 20px;
     }
     .selectedmenu .breakfast .breakfasttxt{
@@ -151,11 +158,14 @@ border-radius: 20px;
     }
     .selectedmenu .bakedfood{
         position: absolute;
-        width: 335px;
+        justify-content: center;
+        width: 96.5%;
+        background-size: 93.5% 100% !important;
         height: 76px;
         left: 6px;
         top: 378px;
         background: url(1-georgian-khachapuri-recipe-3135\ 1.png);
+        background-repeat: no-repeat;
         border-radius: 20px;
         }
         .selectedmenu .bakedfood .bakedfoodtxt{
@@ -173,11 +183,14 @@ border-radius: 20px;
         }
         .selectedmenu .salads{
             position: absolute;
-            width: 335px;
+            justify-content: center;
+            width: 96.5%;
+            background-size: 93.5% 100% !important;
             height: 76px;
             left: 6px;
             top: 478px;
-            background: url(download\ 1.png);
+            background: url(Traditional-breakfast-around-the-world-CP-Costa-Rica\ 1.png);
+            background-repeat: no-repeat;
             border-radius: 20px;
             }
             .selectedmenu .salads .saladstxt{
@@ -195,11 +208,14 @@ border-radius: 20px;
             }
             .selectedmenu .deserts{
                 position: absolute;
-                width: 335px;
+                justify-content: center;
+                width: 96.5%;
+                background-size: 93.5% 100% !important;
                 height: 76px;
                 left: 6px;
                 top: 578px;
                 background: url(raw-dessert\ 1.png);
+                background-repeat: no-repeat;
                 border-radius: 20px;
                 }
                 .selectedmenu .deserts .desertstxt{
@@ -217,11 +233,14 @@ border-radius: 20px;
                 }
                 .selectedmenu .drinks{
                     position: absolute;
-                    width: 335px;
+                    justify-content: center;
+                    width: 96.5%;
+                    background-size: 93.5% 100% !important;
                     height: 76px;
                     left: 6px;
                     top: 678px;
                     background: url(73461940-44_well-drinks_01-hero\ 1.png);
+                    background-repeat: no-repeat;
                     border-radius: 20px;
                     }
                     .selectedmenu .drinks .drinkstxt{
