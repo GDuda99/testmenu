@@ -18,7 +18,7 @@ border-radius: 0px 0px 30px 30px;
     }
     .headerphoto{
         position: fixed;
-        width: 94.5%;
+        width: 90%;
         background-size: 93.5% 100% !important;
         height: 83px;
         left: 0px;
@@ -43,7 +43,7 @@ line-height: 30px;
 .searchsection{
 position: absolute;
 width: 100%;
-height: 62px;
+height: 100%;
 left: 12px;
 top: 91px;
 }
@@ -107,7 +107,7 @@ form.example input[type=text] {
 .selectedmenu .hotmeals{
 position: absolute;
 justify-content: center;
-width: 96.5%;
+width: 99.5%;
 background-size: 93.5% 100% !important;
 height: 76px;
 left: 6px;
@@ -128,13 +128,13 @@ border-radius: 20px;
     font-weight: 400;
     font-size: 38px;
     line-height: 34px;
-    color: #5199C1;
+    color: #5199C1;width: 99.5%;
 }
 
 .selectedmenu .breakfast{
     position: absolute;
     justify-content: center;
-    width: 96.5%;
+    width: 99.5%;
     background-size: 93.5% 100% !important;
     height: 76px;
     left: 6px;
@@ -159,7 +159,7 @@ border-radius: 20px;
     .selectedmenu .bakedfood{
         position: absolute;
         justify-content: center;
-        width: 96.5%;
+        width: 99.5%;
         background-size: 93.5% 100% !important;
         height: 76px;
         left: 6px;
@@ -184,7 +184,7 @@ border-radius: 20px;
         .selectedmenu .salads{
             position: absolute;
             justify-content: center;
-            width: 96.5%;
+            width: 99.5%;
             background-size: 93.5% 100% !important;
             height: 76px;
             left: 6px;
@@ -209,7 +209,7 @@ border-radius: 20px;
             .selectedmenu .deserts{
                 position: absolute;
                 justify-content: center;
-                width: 96.5%;
+                width: 99.5%;
                 background-size: 93.5% 100% !important;
                 height: 76px;
                 left: 6px;
@@ -234,7 +234,7 @@ border-radius: 20px;
                 .selectedmenu .drinks{
                     position: absolute;
                     justify-content: center;
-                    width: 96.5%;
+                    width: 99.5%;
                     background-size: 93.5% 100% !important;
                     height: 76px;
                     left: 6px;
@@ -371,10 +371,10 @@ border-radius: 20px;
   /*Footer*/
   .footer{
 position: absolute;
-width: 96%;
+width: 100%;
 height: 35px;
 left: 0px;
-top: 110%;
+top: 120%;
 background: #A87F4E;
 border-radius: 20px 20px 0px 0px;
 }
