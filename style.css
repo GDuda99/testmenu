@@ -371,10 +371,10 @@ border-radius: 20px;
   /*Footer*/
   .footer{
 position: absolute;
-width: 365px;
+width: 96%;
 height: 35px;
 left: 0px;
-top: 916px;
+top: 110%;
 background: #A87F4E;
 border-radius: 20px 20px 0px 0px;
 }
